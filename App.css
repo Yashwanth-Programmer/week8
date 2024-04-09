@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 90px 20px; 
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+
+ul {
+  display: flex; 
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 40px;
+  
+}
+
+img {
+  height: 30px; 
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar a{
+  text-decoration: none;
+  
+}
+.Link{
+  color: black;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  text-decoration: underline; /* Underline visited links */
+}
+
+.navbar a:focus, .navbar a.active {
+  text-decoration: underline; /* Underline focused or active links */
+}
